@@ -16,11 +16,11 @@ public class FiltersPageTests extends TestBase{
 
     }
     @Test
-    public void selectPickupTypeAndComparePrise(){
+    public void selectPickupTypeAndComparePrice(){
         filtersPageHelper.tapOnBodyType()
                 .tapOnPickupType()
                 .tapOnFirstCar()
-                .comparingPrise();
+                .comparingPrice();
 
     }
 }

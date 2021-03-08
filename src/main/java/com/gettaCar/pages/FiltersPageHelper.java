@@ -38,7 +38,7 @@ public class FiltersPageHelper extends PageBase {
         return this;
     }
 
-    public FiltersPageHelper comparingPrise() {
+    public FiltersPageHelper comparingPrice() {
         priceText = carPrise.getText();
         double price = Double.parseDouble(priceText.substring(1).replaceAll(",", ""));
         System.out.println(price);
